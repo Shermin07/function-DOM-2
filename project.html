@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body>
+    <section class="flex ">
+        <div class="grid grid-cols-3 mx-w-screen-xl gap-4 mr-14">
+            <div class="card bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="images/fruit1.png" alt="fruit" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+
+                  <h2 class="card-title">Grape!</h2>
+
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, soluta?
+    
+                  </p>
+                  <h2 id="price">50 $</h2>
+                  
+                    <button onclick="handlerClick(this)" class="btn btn-secondary">Buy Now</button>
+                  
+                </div>
+              </div>
+            <div class="card  bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="images/fruit2.png" alt="fruit" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Orange!</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, soluta?
+    
+                  </p>
+                  <h2 id="price">40 $</h2>
+                 
+                    <button onclick="handlerClick(this)" class="btn btn-secondary">Buy Now</button>
+                 
+                </div>
+              </div>
+            <div class="card bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="images/fruit4.png" alt="fruit" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Strawbery!</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, soluta?
+    
+                  </p>
+                  <h2 id="price">50 $</h2>
+                 
+                    <button onclick="handlerClick(this)" class="btn btn-secondary">Buy Now</button>
+                 
+                </div>
+              </div>
+    
+            </div>
+           
+            <div id="div-price" class="mr-28 mt-24">
+                <h2>Code: Hero</h2>
+                <div id="selected-items">
+
+                </div>
+                <h3>Total: 00</h3>
+                <h4>Discount: 00</h4>
+                
+                <hr >
+                <h2 class="text-sm">Grand Total: 00</h2>
+            </div>
+    </section>
+    
+
+
+    <script src="project.js"></script>
+</body>
+</html>
