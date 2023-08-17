@@ -8,19 +8,15 @@
 <body>
 <div class = "box">
     <h1>Hello World</h1>
-
-    <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, sint?</p>
-
     <img src="">
-
-    <input id="input-1" type="text">
-
-    <button onclick="handlerClick(this)" id="btn-1">submit</button>
+    <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, sint?</p>
+   <input id="input-1" type="text">
+   <button onclick="handlerClick(this)" id="btn-1">submit</button>
 </div>
 
 <script>
 function handlerClick(target){
-    console.log(target.parentNode.childNodes [3].innerText);
+    console.log(target.parentNode.childNodes[1].innerText);
 
 }
 
